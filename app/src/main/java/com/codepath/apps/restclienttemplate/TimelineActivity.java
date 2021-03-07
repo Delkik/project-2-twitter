@@ -123,6 +123,7 @@ public class TimelineActivity extends AppCompatActivity {
                 adapter.addAll(tweetsFromDB);
             }
         });
+
         populateHomeTimeline();
     }
 
